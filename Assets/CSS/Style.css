@@ -46,6 +46,7 @@ h5{
     font-family: 'Lato', sans-serif;
     letter-spacing: 1px;
 }
+
 #logo{
     font-family: 'Pacifico', sans-serif;
     font-size: 150%;
@@ -97,9 +98,13 @@ nav {
 #logo{
     display: inline-block;
 }
+.nav-toggle-label {
+    font-size: 1.5rem;
+}
 /* Main content */
 main {
-    background-color: lightblue;
+    background-color: rgba(3, 111, 235, 0.2);
+    /*background-color: lightblue;*/
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
@@ -124,6 +129,32 @@ main {
 }
 #cover-text > h2, #cover-text > h3 {
     color: #ffffff;
+}
+/* Reasons section */
+#reasons {
+    width: 90%;
+    margin: 20px auto;
+}
+
+#reasons h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 280%;
+}
+
+#benefits-physical > div,
+#benefits-mental > div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#benefits p {
+    padding: 0 20px;
+}
+
+#benefits hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
 }
 /* Footer */
 
