@@ -180,6 +180,7 @@ main {
 }
 
 #photos {
+    
     line-height: 0;
 }
 /* Footer */
@@ -257,7 +258,7 @@ footer{
     }
     /* Gallery */
     #photos {
-        column-count: 3;
+        column-count: 4;
     }
 }
 
@@ -267,7 +268,13 @@ footer{
     #menu a:hover{
         border-bottom: 1px solid #3a3a3a;
     }
+    /* Gallery */
+#photos {
+    column-count: 3;
+
 }
+}
+
 @media screen and (min-width: 1200px) {    
     /* Reasons section */
     #benefits {
@@ -294,4 +301,9 @@ footer{
     #benefits-physical > div {
         align-self: flex-end;
     }
+    /* Gallery */
+#photos {
+    column-count: 4;
+
+}
 }
