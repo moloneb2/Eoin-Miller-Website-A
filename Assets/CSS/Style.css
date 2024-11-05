@@ -24,7 +24,8 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a;
+    
+    border-bottom: 0.5vh solid lightgrey;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -103,7 +104,7 @@ nav {
 }
 /* Main content */
 main {
-    background-color: rgba(3, 111, 235, 0.2);
+    /*background-color: rgba(3, 111, 235, 0.2);*/
     /*background-color: lightblue;*/
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
@@ -182,7 +183,9 @@ main {
     line-height: 0;
 }
 /* Footer */
-
+footer{
+    border-top: 0.5vh solid lightgrey;
+}
 #social-networks {
     text-align: center;
     padding: 20px 0;
