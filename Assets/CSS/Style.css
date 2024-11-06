@@ -189,6 +189,7 @@ section.signup{
     height: 100vh;
 }
 #signup {
+    
     background-image: url("../Gallery/Eoin\ Img\ Sign\ Up\ Bg\ 1.jpg");
     background-size: cover;
     background-position: 75%;
@@ -198,6 +199,7 @@ section.signup{
 }
 
 #signup-form {
+    margin-top: 25%;
     color: #ffffff;
     background-color: rgba(111, 110, 110, 0.6);
     padding: 30px;
@@ -207,6 +209,7 @@ section.signup{
 #signup-form>h2 {
     color: #fafafa;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 
