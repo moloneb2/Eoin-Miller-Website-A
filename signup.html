@@ -16,7 +16,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="Assets/Favicon/music favicon img.png">
     <link rel="icon" type="image/png" sizes="16x16" href="Assets/Favicon/music favicon img.png">
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="Assets\CSS\Style.css">
+    <link rel="stylesheet" href="Assets/CSS/Style.css">
 </head>
 
 <body>
@@ -48,52 +48,35 @@
 
     <!-- Main content -->
     <main>
-        <section id="hero">
-            <div id="cover-text">
-                <h2>LIVE MUSIC</h2>
-                <h3>DUBLIN & SURROUNDING AREAS</h3>
-            </div>
+        <section id="signup">
+            <form id="signup-form" method="POST" action="https://formdump.codeinstitute.net">
+                <h2><i class="fa-solid fa-heartbeat"></i> Let's get you signed up!</h2>
+                <label for="first-name">First Name</label>
+                <input type="text" name="first_name" id="first-name" class="text-input" required>
+                <br>
+                <label for="last-name">Last Name</label>
+                <input type="text" name="last_name" id="last-name" class="text-input" required>
+                <br>
+                <label for="email-address">Email Address</label>
+                <input type="email" name="email_address" id="email-address" class="text-input" required>
+                <br>
+                <div class="radio-buttons">
+                    <div>
+                        <label for="road">Road</label>
+                        <input type="radio" name="running_preference" id="road" value="road" required checked>
+                    </div>
+                    <div>
+                        <label for="trail">Trail</label>
+                        <input type="radio" name="running_preference" id="trail" value="trail" required>
+                    </div>
+                    <div>
+                        <label for="both">Both</label>
+                        <input type="radio" name="running_preference" id="both" value="both" required>
+                    </div>
+                </div>
+                <button type="submit" class="join-button">Let's Run!</button>
+            </form>
         </section>
-        <section id="reasons">
-            <h2>Information</h2>
-            <div id="benefits">
-                <div id="benefits-physical">
-                    <div>
-                        <h3>Musical Background <i class="fa-solid fa-music"></i></h3>
-                        <hr>
-                        <p>Eoin Miller was the drummer for the group ‘My Albatross’ who were a 
-                        Manchester based band whose sound was an eclectic, up-beat Indie/Rock style with complex vocals.
-                         They had their singles ‘Live and Live Lonely ', ‘Richman’s daughter’ along with the 
-                         B sides of ‘I Don’t Love You’ and ‘Spending her Daisies’’ played on BBC and XFM radio during 2009 - 2010.</p>
-                    </div>
-                    <div>
-                        <h3>Current Projects <i class="fa-solid fa-microphone"></i></h3>
-                        <hr>
-                        <p>He has since moved back to Ireland and has done solo and duo gigs around Meath, Louth and Dublin.
-                        Eoin is currently doing gigs around Meath and Dublin with his 
-                        own acoustic rock/folk/pop style songs and is currently demoing his own songs to make his debut album.</p>
-                    </div>
-                </div>
-                <div id="benefits-mental">
-                    <div>
-                        <h3>Pictures and Videos <i class="fa-regular fa-images"></i></h3>
-                        <hr>
-                        <p>Physical exercise, running included, is known to release endorphins in the brain. Endorphins
-                            make you more energetic, more awake and, yes, happier.</p>
-                    </div>
-                    <div>
-                        <h3>Get social <i class="fa-solid fa-globe"></i></h3>
-                        <hr>
-                        <p>When we run with others, we can run farther and faster more easily. Social running can pull
-                            you out of a running funk or low mood, and inspire you to try new events.</p>
-                    </div>
-                </div>
-                <div id="benefits-image">
-                    <div id="circle-cover-bg"></div>
-                </div>
-            </div>
-        </section>
-
     </main>
 
     <!-- Footer -->

@@ -158,7 +158,7 @@ main {
     margin: 5px 0;
 }
 #circle-cover-bg {
-    background: url('../Gallery/Eoin\ Benefit\ Img.jpg') no-repeat top center / cover;
+    background: url('../Gallery/Eoin\ Img\ 11.JPG') no-repeat top center / cover;
     height: 90vw;
     width: 90vw;
     margin-bottom: 20px;
@@ -183,6 +183,60 @@ main {
     
     line-height: 0;
 }
+/* Form */
+section.signup{
+    height: 100vh;
+}
+#signup {
+    background-image: url("../Gallery/Eoin\ Img\ Sign\ Up\ Bg\ 1.jpg");
+    background-size: cover;
+    background-position: 75%;
+    height: 49rem;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+}
+
+#signup-form {
+    color: #ffffff;
+    background-color: rgba(111, 110, 110, 0.6);
+    padding: 30px;
+}
+
+
+#signup-form>h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    padding: 0 5px;
+}
+
+
+.radio-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px;
+    font-size: 100%;
+    background-color: #454b1b;
+    color: #fafafa;
+}
+
 /* Footer */
 footer{
     border-top: 0.5vh solid lightgrey;
