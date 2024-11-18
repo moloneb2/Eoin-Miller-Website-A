@@ -114,7 +114,7 @@ main {
 #hero {
     height: 600px;
     width: 100%;
-  background: url('../Gallery/Eoin\ Img\ 11.JPG') no-repeat  top center / contain;
+  background: url('../Gallery/Eoin\ Img\ 11.JPG') no-repeat   center / cover;
     /*background: url('../Images/Eoin-Hero-Img.JPG') no-repeat  top center / contain;*/
     position: relative;
 }
